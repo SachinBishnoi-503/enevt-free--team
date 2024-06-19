@@ -17,10 +17,10 @@
     --fs-36: 36px;
     --fs-64: 64px;
     --fs-48: 48px;
-    --fs-sm-30:30px;
-    --fs-sm-55:55px;
-    --fs-sm-32:24px;
-    --fs-sm-20:20px;
+    --fs-sm-30: 30px;
+    --fs-sm-55: 55px;
+    --fs-sm-32: 24px;
+    --fs-sm-20: 20px;
     /* ---color-- */
     --color-white: #ffffff;
     ---color-blue: #2c49fe;
@@ -29,7 +29,7 @@
     ---color-gray: #cccccc;
     ---color-dark-gray: #666666;
     ---color-bluedark: #18205c;
-    
+
 
 }
 
@@ -42,7 +42,7 @@
 
 .choose {
     font-family: "Poppins", sans-serif;
-    font-size: var(--fs-48);
+    font-size: var(--fs-sm-30);
     font-weight: 700;
     line-height: 72px;
     text-align: center;
@@ -51,7 +51,7 @@
 
 .lorem {
     font-family: "Poppins", sans-serif;
-    font-size: var(--fs-24);
+    font-size: var(--fs-sm-20);
     font-weight: 600;
     line-height: 36px;
     text-align: left;
@@ -105,7 +105,13 @@
 .mainbox:hover .img {
     border-radius: 0px;
 }
+
 @media (min-width:992px) {
-    
-    
+    .lorem {
+        font-size: var(--fs-24);
+    }
+
+    .choose {
+        font-size: var(--fs-48);
+    }
 }
