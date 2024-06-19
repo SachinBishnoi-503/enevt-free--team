@@ -17,6 +17,16 @@
     --fs-36: 36px;
     --fs-64: 64px;
     --fs-48: 48px;
+    <<<<<<< HEAD=======--fs-sm-30: 30px;
+    --fs-sm-55: 55px;
+    --fs-sm-32: 24px;
+    --fs-sm-20: 20px;
+    --fs-sm-17: 17px;
+    --fs-sm-30: 30px;
+    --fs-sm-55: 55px;
+    --fs-sm-32: 24px;
+    --fs-sm-20: 20px;
+    >>>>>>>1b568dec7a386b5de98e0ce521aba57c02e17a5e
     /* ---color-- */
     --color-white: #ffffff;
     ---color-blue: #2c49fe;
@@ -202,4 +212,104 @@
         margin-top: 0;
     }
 
+
+}
+
+.line1 {
+    width: 188px;
+    height: 8px;
+    background: linear-gradient(to right, #2C49FE 85%, #01C8FF 15%);
+    margin-top: 68px;
+}
+
+.choose {
+    font-family: "Poppins", sans-serif;
+    font-size: var(--fs-sm-30);
+    font-weight: 700;
+    line-height: 72px;
+    text-align: center;
+    color: var(---color-black);
+}
+
+.lorem {
+    font-family: "Poppins", sans-serif;
+    font-size: var(--fs-sm-17);
+    font-weight: 600;
+    line-height: 36px;
+    text-align: left;
+    color: var(---color-black);
+}
+
+.mainbox {
+    width: 100%;
+    height: 100%;
+    border: 1px solid var(---color-gray);
+    border-radius: 30px;
+    padding: 35px 37px 30px 43px;
+}
+
+.go-btn {
+    font-family: "Poppins", sans-serif;
+    font-size: var(--fs-16);
+    font-weight: 600;
+    line-height: 24px;
+    text-align: center;
+    padding: 10px;
+    background: var(---color-blue);
+    color: var(--color-white);
+    border: none;
+    border-radius: 23px;
+    width: 134px;
+    margin-top: 32px;
+    height: 46px;
+}
+
+.mt-24 {
+    margin-top: 24px;
+}
+
+.go-btn:hover {
+    color: var(---color-blue);
+    background: var(--color-white);
+    border: 1px solid var(---color-bluedark);
+}
+
+.img {
+    border-radius: 20px;
+}
+
+.mainbox:hover {
+    box-shadow: 0px 8px 35px 0px #0000001A;
+    border: none;
+    border-radius: 0%;
+}
+
+.mainbox:hover .img {
+    border-radius: 0px;
+}
+
+@media (min-width:576px) {
+    .lorem {
+        font-size: var(--fs-sm-30);
+    }
+
+    .choose {
+        font-size: var(--fs-48);
+    }
+}
+
+@media (min-width:768px) {
+    .lorem {
+        font-size: var(--fs-24);
+    }
+}
+
+@media (min-width:992px) {
+    .lorem {
+        font-size: var(--fs-24);
+    }
+
+    .choose {
+        font-size: var(--fs-48);
+    }
 }
