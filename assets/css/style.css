@@ -106,6 +106,22 @@
     border-radius: 0px;
 }
 
+@media (min-width:576px) {
+    .lorem {
+        font-size: var(--fs-sm-30);
+    }
+
+    .choose {
+        font-size: var(--fs-48);
+    }
+}
+
+@media (min-width:768px) {
+    .lorem {
+        font-size: var(--fs-24);
+    }
+}
+
 @media (min-width:992px) {
     .lorem {
         font-size: var(--fs-24);
